@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<br lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>forms</title>
+</head>
+
+<body>
+  <form action="#" method="get">
+    <fieldset>
+      <label for="login">Логін</label>
+      <input type="text" name="login" id="login"><br></br>
+      <label for="password">Пароль</label>
+      <input type="password" name="password" id="password"><br></br>
+      <label for="e-mail">e-mail</label>
+      <input type="email" name="e-mail" id="e-mail"><br></br>
+      <label for="name">Ім'я</label>
+      <input type="text" name="name" id="name"><br></br>
+      <label for="surname">Прізвище</label>
+      <input type="text" name="surname" id="surname"><br></br>
+      <label for="tel">Телефон</label>
+      <input type="tel" name="tel" id="tel"><br></br>
+      <label for="city">Місто</label>
+      <select name="city" id="city">
+        <option value="London">Лондон</option>
+        <option value="New York">Нью-Йорк</option>
+        <option value="Frankivsk">Франківськ</option>
+      </select><br></br>
+      <label for="date">Дата народження</label>
+      <input type="date" name="date" id="date"><br></br>
+      <label for="eng">Знання англійської мови</label>
+      <input type="number" max="10" min="1" step="1" name="eng" id="eng" value="1"><br></br>
+    </fieldset></br>
+    <fieldset>
+      <legend>Досвід роботи</legend>
+      <label for="company">Компанія</label>
+      <input type="text" name="company" id="company"><br></br>
+      <label for="appointment">Посада</label>
+      <input type="text" name="appointment" id="appointment"><br></br>
+      <label for="start">Початок роботи</label>
+      <input type="month" name="" id="start"><br></br>
+      <label for="end">Завершення роботи</label>
+      <input type="month" name="end" id="end"><br></br>
+      <input type="checkbox" name="till-now" id="till-now">
+      <label for="till-now">По сьогодні</label></br>
+    </fieldset></br>
+    <label for="download">Завантажити своє резюме</label>
+    <input type="file" value="download" id="download"><br></br>
+    <label for="salary">Бажана зарплата</label>
+    <input type="text" name="salary" id="salary" value="$"><br></br>
+    <input type="submit" value="Надіслати">
+    <input type="reset" value="Скинути">
+  </form>
+</body>
+
+</html>
